@@ -129,15 +129,13 @@ background-color: #fff !important;
 }
 .wood h3
 {
-    position: relative;
-    left: -34.1%;
+    
     margin-bottom: 10px;
     
 }
 .wood h2
 {
-   position: relative;
-    left: -37.5%;
+  
    text-align: left;
     font-weight: 600;
     font-size: 24px;
@@ -216,8 +214,7 @@ background-color: #fff !important;
 }
 
 .face h2
-{   position: relative;
-    left: -37.5%;
+{   
    text-align: left;
     font-weight: 600;
     font-size: 24px;
@@ -242,16 +239,10 @@ background-color: #fff !important;
  
        margin-left: 10px;
 }
-.bridge h3
-{
-    position: relative;
-    left: -34.1%;
-    
-}
+
 .bridge h2
 {
-     position: relative;
-    left: -37.5%;
+    
    text-align: left;
     font-weight: 600;
     font-size: 24px;
@@ -345,6 +336,20 @@ background-color: #fff !important;
    
 .face .sp {
     opacity: 1;
+}
+
+.title
+{
+   
+    width: 98%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 1208px) {
