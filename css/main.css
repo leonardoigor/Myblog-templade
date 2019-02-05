@@ -12,7 +12,7 @@ body
     font-family: "Raleway",sans-serif;
     width: 100%;
     height: 100%;
-   background-color: #f1f1f1 !important
+   background-color: #f1f1f1;
 }
 
 h2
@@ -20,12 +20,12 @@ h2
   
     font-weight: 600;
     font-size: 36px;
-    text-align: center !important;
+    text-align: center;
 }
 #title h2+p
 {
    box-sizing: inherit;
-    text-align: center !important;
+    text-align: center;
     
 }
 
@@ -46,7 +46,7 @@ h2
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
     text-align: center;
 
 }
@@ -67,10 +67,200 @@ h2
     
 }
 
-.wood
+#block
 {
    color: #000 !important;
 background-color: #fff !important;
     margin: 16px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 }
+
+.wood p
+{
+    text-align:left;
+    text-decoration: none;
+ 
+       margin-left: 10px;
+}
+.wood h3
+{
+    position: relative;
+    left: -9.5em
+    
+}
+.wood h2
+{
+    position: relative;
+    right: 8.8em;
+    font-weight: 600;
+    margin-bottom: -10px;
+    font-size: 24px;
+}
+
+.wood span
+{
+    opacity: 0.60;
+}
+
+.coment label
+{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000 !important;
+    font-family: "Raleway", sans-serif;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
+    left: 15em;
+    
+    
+}
+.coment span
+{
+    
+    border-radius: 50%;
+     background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: 1
+    
+}
+.wood .coment span
+{
+    
+    border-radius: 0%;
+     background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: 1
+    
+}
+    
+/*
+
+*/
+
+
+
+.face p
+{
+    text-align:left;
+    text-decoration: none;
+    margin-left: 10px;
+ 
+    
+}
+
+.face h2
+{
+    position: relative;
+    right: 10.5em;
+    font-weight: 600;
+    margin-bottom: -10px;
+    font-size: 24px;
+}
+
+.face span
+{
+    opacity: 0.60;
+}
+
+.coment label
+{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000 !important;
+    font-family: "Raleway", sans-serif;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
+    left: 15em;
+    
+    
+}
+.coment span
+{
+    
+    border-radius: 50%;
+     background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: 1
+    
+}
+
+/*
+
+*/
+
+.bridge p
+{
+    text-align:left;
+    text-decoration: none;
+ 
+       margin-left: 10px;
+}
+.bridge h3
+{
+    position: relative;
+    left: -9.5em
+    
+}
+.bridge h2
+{
+    position: relative;
+    right: 9.4em;
+    font-weight: 600;
+    margin-bottom: -10px;
+    font-size: 24px;
+}
+
+.bridge span
+{
+    opacity: 0.60;
+}
+
+.coment label
+{
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000 !important;
+    font-family: "Raleway", sans-serif;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
+    left: 15em;
+    
+    
+}
+.coment span
+{
+    
+    border-radius: 50%;
+     background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: 1
+    
+}
+
+   
