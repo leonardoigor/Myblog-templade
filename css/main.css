@@ -1,3 +1,4 @@
+*{margin: 0;padding: 0;}
 /*flex*/
 .flex-center
 {
@@ -15,6 +16,11 @@
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+}
+
+header
+{
+    margin:5em; 
 }
 body
 {
@@ -57,18 +63,16 @@ h2
     display: -ms-flexbox;
     display: flex;
 
-        -ms-flex-direction: column;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                flex-direction: column;
-   
-            -webkit-box-pack: center;
-   
-                -ms-flex-pack: center;
-   
-                    justify-content: center;
-    
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
+    margin: 0 auto;
+    
 
 }
 
@@ -112,7 +116,10 @@ background-color: #fff !important;
 
                     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 }
-
+.wood
+{
+    position: relative;
+}
 .wood p
 {
     text-align:left;
@@ -123,16 +130,18 @@ background-color: #fff !important;
 .wood h3
 {
     position: relative;
-    left: -9.5em
+    left: -34.1%;
+    margin-bottom: 10px;
     
 }
 .wood h2
 {
-    position: relative;
-    right: 8.8em;
+   position: relative;
+    left: -37.5%;
+   text-align: left;
     font-weight: 600;
-    margin-bottom: -10px;
     font-size: 24px;
+    margin: 10px
 }
 
 .wood span
@@ -149,10 +158,12 @@ background-color: #fff !important;
     font-family: Verdana,sans-serif;
     font-size: 15px;
     line-height: 1.5;
-  
+    cursor: pointer;
     
-    
-    
+}
+.coment label:hover
+{
+    color: #b1b1b9 !important;
 }
 .coment span
 {
@@ -167,6 +178,12 @@ background-color: #fff !important;
     margin-bottom: 0vh;
     opacity: 1
     
+}
+
+.coment span:hover
+{
+   
+    color: #b1b1b9;
 }
 .wood .coment span
 {
@@ -199,12 +216,12 @@ background-color: #fff !important;
 }
 
 .face h2
-{
-    position: relative;
-    right: 10.5em;
+{   position: relative;
+    left: -37.5%;
+   text-align: left;
     font-weight: 600;
-    margin-bottom: -10px;
     font-size: 24px;
+    margin: 10px
 }
 
 .face span
@@ -228,16 +245,17 @@ background-color: #fff !important;
 .bridge h3
 {
     position: relative;
-    left: -9.5em
+    left: -34.1%;
     
 }
 .bridge h2
 {
-    position: relative;
-    right: 9.4em;
+     position: relative;
+    left: -37.5%;
+   text-align: left;
     font-weight: 600;
-    margin-bottom: -10px;
     font-size: 24px;
+    margin: 10px
 }
 
 .bridge .num
@@ -255,39 +273,44 @@ background-color: #fff !important;
     content: "READ MORE ";
     width: 100%;
     
+    cursor: pointer;
+    
 }
+
 .text
 {
     border-style: none;
-    padding: 0;
     color: #000 !important;
-    background-color: #fff !important;
+    background-color: #fff ;
     padding: 2vh 3.2vh !important;
     border: 1px solid #ccc !important;
     font-weight: 900;
   
    
-    
+   
+
     
     
     margin-bottom: 10vh !importante;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    
     -webkit-box-pack: center;
-    
-        -ms-flex-pack: center;
-    
-            justify-content: center;
-   
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-   
-        -ms-flex-align: center;
-   
-            align-items: center;
+
+       -ms-flex-align: center;
+      align-items: center;
     text-align: center;
     margin-bottom: 1%;
+    position: relative;
+    top: -20px;
+}
+.text:hover
+{
+  background-color: #eee;
+    cursor: pointer;
 }
 
 .sp:before
@@ -298,10 +321,12 @@ background-color: #fff !important;
        opacity: 1 ;
 
     font-weight: 900;
+    
 }
 
 .foo
 {
+    
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
