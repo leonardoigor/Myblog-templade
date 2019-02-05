@@ -1,32 +1,44 @@
+/*flex*/
+.flex-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 body
 {
     font-family: "Raleway",sans-serif;
     width: 100%;
     height: 100%;
+   background-color: #f1f1f1 !important
 }
 
 h2
 {
   
     font-weight: 600;
-    font-size: 36px
-    
+    font-size: 36px;
+    text-align: center !important;
 }
 #title h2+p
 {
-    text-align: center;
-    font-weight: 600;
+   box-sizing: inherit;
+    text-align: center !important;
+    
 }
 
 #title span
 {
-    color:#f1f1f1;
-    background: black;
-    padding: .1em;
-    text-decoration: none;
-    font-size: 14px;
-    border-radius: 3px;
-    margin-left: 5px;
+    color:#fff;
+    background: #000;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-left: 5px
+    
 }
 
 #container
@@ -36,6 +48,7 @@ h2
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 #container #block
@@ -50,5 +63,14 @@ h2
 {
     width: 100%;
     vertical-align: middle;
+    border-style: none;
     
+}
+
+.wood
+{
+   color: #000 !important;
+background-color: #fff !important;
+    margin: 16px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 }
