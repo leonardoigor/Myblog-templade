@@ -283,7 +283,7 @@ background-color: #fff !important;
     opacity: 1;
 }
 
-@media only screen and (min-width: 832px) {
+@media only screen and (min-width: 1208px) {
     #container
     {
         width: 190vh;
